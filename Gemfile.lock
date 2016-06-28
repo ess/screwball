@@ -100,6 +100,7 @@ GEM
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
+    pg (0.18.4)
     pkg-config (1.1.7)
     rack (2.0.0.rc1)
       json
@@ -191,6 +192,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  pg
   rails (>= 5.0.0.rc2, < 5.1)
   sass-rails (~> 5.0)
   spring
