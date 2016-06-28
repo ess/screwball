@@ -1,0 +1,2 @@
+class Florb < ApplicationRecord
+end

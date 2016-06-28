@@ -1,0 +1,6 @@
+= link_to("New Florb", florbs_path, method: :post)
+
+%ul#florbs
+  - @florbs.each do |florb|
+    %li= florb.created_at
+
